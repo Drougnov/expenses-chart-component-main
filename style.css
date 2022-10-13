@@ -9,9 +9,7 @@
     --primary-text: hsl(28, 10%, 53%);
     --main-bg: hsl(27, 66%, 92%);
     --chart-bg: hsl(33, 100%, 98%);
-    --header-bg: hsl(10, 79%, 65%);     /*header-bg, bar-bg*/
-    --bar-hover: hsl(10, 79%, 70%);
-    --Cyan: hsl(186, 34%, 60%);         /*current day*/
+    --header-bg: hsl(10, 79%, 65%);
 }
 body{
     min-height: 100vh;
@@ -75,6 +73,7 @@ main .chart-container{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     align-items: flex-end;
+    gap: .5rem;
     margin-top: 2.5rem;
 }
 .chart-container .chart{
@@ -97,7 +96,7 @@ main .chart-container{
     cursor: pointer;
 }
 .chart__bar:hover{
-    background: hsl(10, 79%, 75%);
+    opacity: .8;
 }
 .chart__bar::after{
     position: absolute;
