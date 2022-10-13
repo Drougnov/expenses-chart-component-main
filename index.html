@@ -11,61 +11,54 @@
   <div class="container">
     <header>
       <div class="header__balance">
-        <p>My balance</p>
-        <span>$921.48</span>
+        <p class="header__balance-text">My balance</p>
+        <span class="header__balance-remain">$921.48</span>
       </div>
       <img src="./images/logo.svg" alt="Expenses chart component | Logo" class="header__logo">
     </header>
     <main>
       <h1>Spending - Last 7 days</h1>
-      <div class="chart">
-        <div>
-          <span>mon</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+      <div class="chart-container">
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">mon</span>
         </div>
-        <div>
-          <span>tue</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">tue</span>
         </div>
-        <div>
-          <span>wed</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">wed</span>
         </div>
-        <div>
-          <span>thu</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">thu</span>
         </div>
-        <div>
-          <span>fri</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">fri</span>
         </div>
-        <div>
-          <span>sat</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">sat</span>
         </div>
-        <div>
-          <span>sun</span>
-          <div class="bar"></div>
-          <h2 class="cost"></h2>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">sun</span>
         </div>
       </div>
       <hr>
-      <footer>
-        <section>
+      <div class="footer">
+        <section class="footer__current">
           <p>Total this month</p>
-          <h2>$478.33</h2>
+          <h2 class="footer__current-spend">$478.33</h2>
         </section>
-        <section>
-          <h3>+2.4%</h3>
+        <section class="footer__last">
+          <h3 class="footer__last-difference">+2.4%</h3>
           <p>from last month</p>
         </section>
-      </footer>
+      </div>
     </main>
   </div>
   <footer>
