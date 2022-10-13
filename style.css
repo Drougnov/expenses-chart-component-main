@@ -4,3 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+}
+body{
+    min-height: 100vh;
+    font-size: 1.125rem;
+    font-family: 'DM Sans', sans-serif;
+}
