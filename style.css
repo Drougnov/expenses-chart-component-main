@@ -41,12 +41,10 @@ body{
     -o-border-radius: .5rem;
     border-radius: .5rem;
 }
-header img{
-    max-height: 40px;
-}
 .header__balance{
     display: flex;
     flex-direction: column;
+    gap: .25rem;
 }
 .header__balance-text{
     color: var(--main-bg);
@@ -55,6 +53,68 @@ header img{
 .header__balance-remain{
     font-size: 1.5625rem;
     font-weight: 700;
+}
+.header__logo{
+    width: 40px;
+    height: 30px;
+    margin-right: 1rem;
+    position: relative;
+}
+.header__logo-ring{
+    display: inline-block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.header__logo-white{
+    border: 2px solid var(--chart-bg);
+    z-index: 1;
+    animation: moveWhite 2s linear infinite;
+    -webkit-animation: moveWhite 2s linear infinite;
+}
+@keyframes moveWhite{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -.75rem;
+    }
+    50%{
+        left: 0;
+    }
+    75%{
+        left: .75rem;
+    }
+    100%{
+        left: 0;
+    }
+}
+.header__logo-dark{
+    background: var(--header-text);
+    animation: moveDark 2s linear infinite;
+    -webkit-animation: moveDark 2s linear infinite;
+}
+@keyframes moveDark{
+    0%{
+        left: 0rem;
+    }
+    25%{
+        left: .75rem;
+    }
+    50%{
+        left: 0;
+    }
+    75%{
+        left: -.75rem;
+    }
+    100%{
+        left: 0;
+    }
 }
 .container main{
     background: var(--chart-bg);
@@ -84,7 +144,6 @@ main .chart-container{
 .chart__bar{
     width: 100%;
     max-width: 35px;
-    height: 104.72px;
     background: var(--header-bg);
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;
