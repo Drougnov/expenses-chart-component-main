@@ -92,11 +92,13 @@ main .chart-container{
     -o-border-radius: .3rem;
     border-radius: .3rem;
     margin: .25rem 0 .5rem 0;
-    position: relative;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
     cursor: pointer;
-}
-.chart__bar:hover{
-    opacity: .8;
+    position: relative;
 }
 .chart__bar::after{
     position: absolute;
