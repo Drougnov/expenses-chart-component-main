@@ -7,29 +7,69 @@
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 <body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="header">
+      <div class="header__balance">
+        <p>My balance</p>
+        <span>$921.48</span>
+      </d>
+      <img src="./images/logo.svg" alt="Expenses chart component | Logo" class="header__logo">
+    </div>
+    <div class="container">
+      <h1>Spending - Last 7 days</h1>
+      <div class="container__chart">
+        <div>
+          <span>mon</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>tue</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>wed</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>thu</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>fri</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>sat</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+        <div>
+          <span>sun</span>
+          <div class="bar"></div>
+          <h2 class="cost"></h2>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <section class="total">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </section>
+        <section>
+          <h3>+2.4%</h3>
+          <p>from last month</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://www.facebook.com/ANT1D0t35" rel="noopener">Rocky</a>.
+  </footer>
 </body>
 </html>
