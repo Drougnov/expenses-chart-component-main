@@ -74,6 +74,7 @@ main h1{
 main .chart-container{
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    align-items: flex-end;
     margin-top: 2.5rem;
 }
 .chart-container .chart{
@@ -100,7 +101,7 @@ main .chart-container{
 }
 .chart__bar::after{
     position: absolute;
-    content: '$20.00';
+    content: var(--content,"");
     top: -2rem;
     left: -.5rem;
     right: 0;
@@ -114,6 +115,7 @@ main .chart-container{
     -ms-border-radius: .3rem;
     -o-border-radius: .3rem;
     border-radius: .3rem;
+    z-index: 1;
     display: none;
 }
 .chart__bar:hover::after{
