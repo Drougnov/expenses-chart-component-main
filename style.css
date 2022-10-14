@@ -64,7 +64,7 @@ body{
     font-size: 1rem;
 }
 .header__balance-remain{
-    font-size: 1.5625rem;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 .header__logo{
@@ -78,17 +78,17 @@ body{
     position: absolute;
     width: 35px;
     height: 35px;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    border-radius: 50%;
 }
 .header__logo-white{
     border: 2px solid var(--chart-bg);
     z-index: 1;
-    animation: moveWhite 2s linear infinite;
     -webkit-animation: moveWhite 2s linear infinite;
+    animation: moveWhite 2s linear infinite;
 }
 @keyframes moveWhite{
     0%{
@@ -109,8 +109,8 @@ body{
 }
 .header__logo-dark{
     background: var(--header-text);
-    animation: moveDark 2s linear infinite;
     -webkit-animation: moveDark 2s linear infinite;
+    animation: moveDark 2s linear infinite;
 }
 @keyframes moveDark{
     0%{
