@@ -1,7 +1,8 @@
 const preLoader = document.querySelector('.preloader');
 window.addEventListener('DOMContentLoaded',()=>{
     setTimeout(()=>{
-        preLoader.style.display = "none";
+        preLoader.style.opacity = "0";
+        preLoader.style.zIndex = "-100"
     },1500)
 })
 

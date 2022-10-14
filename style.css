@@ -35,6 +35,12 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 100;
+    opacity: 1;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
 }
 .container{
     width: calc(100% - 2rem);
