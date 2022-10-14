@@ -1,3 +1,11 @@
+const preLoader = document.querySelector('.preloader');
+
+window.addEventListener('DOMContentLoaded',()=>{
+    setTimeout(()=>{
+        preLoader.style.display = "none";
+    },1500)
+})
+
 const chartBars = document.querySelectorAll('.chart__bar');
 const date = new Date();
 const currentDay = date.getDay();

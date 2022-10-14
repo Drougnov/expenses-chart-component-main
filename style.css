@@ -21,6 +21,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.preloader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--header-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
 }
 .container{
     width: calc(100% - 2rem);
