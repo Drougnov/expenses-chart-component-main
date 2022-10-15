@@ -60,6 +60,7 @@ body{
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
     border-radius: .5rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 .header__balance{
     display: flex;
@@ -144,6 +145,7 @@ body{
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
     border-radius: .5rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 main h1{
     color: var(--header-text);
