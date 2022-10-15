@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [yet to add]
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-expenses-chart-component-solution-YvVPhwQRwj](https://www.frontendmentor.io/solutions/responsive-expenses-chart-component-solution-YvVPhwQRwj)
 - Live Site URL: [https://drougnov.github.io/expenses-chart-component-main/](https://drougnov.github.io/expenses-chart-component-main/)
 
 ## My process
