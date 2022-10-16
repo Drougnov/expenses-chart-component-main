@@ -9,7 +9,10 @@ window.addEventListener('DOMContentLoaded',()=>{
 
 const chartBars = document.querySelectorAll('.chart__bar');
 const date = new Date();
-const currentDay = date.getDay();
+let currentDay = date.getDay();
+if(currentDay === 0){
+    currentDay = 7;
+}
 
 fetch('data.json')
     .then(res => res.json())
